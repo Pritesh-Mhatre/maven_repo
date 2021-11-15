@@ -1,0 +1,196 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.dakshata",
+    "module": "public-library",
+    "version": "1.2.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jasypt",
+          "module": "jasypt",
+          "version": {
+            "requires": "1.9.3"
+          }
+        },
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "1.7.30"
+          }
+        },
+        {
+          "group": "org.projectlombok",
+          "module": "lombok",
+          "version": {
+            "requires": "1.18.10"
+          }
+        },
+        {
+          "group": "jakarta.persistence",
+          "module": "jakarta.persistence-api",
+          "version": {
+            "requires": "2.2.3"
+          }
+        },
+        {
+          "group": "org.apache.httpcomponents",
+          "module": "httpcore",
+          "version": {
+            "requires": "4.4.13"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-databind",
+          "version": {
+            "requires": "2.10.1"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.datatype",
+          "module": "jackson-datatype-jsr310",
+          "version": {
+            "requires": "2.10.1"
+          }
+        },
+        {
+          "group": "com.opencsv",
+          "module": "opencsv",
+          "version": {
+            "requires": "5.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "public-library-1.2.2.jar",
+          "url": "public-library-1.2.2.jar",
+          "size": 216394,
+          "sha512": "c6f789cf34bf41d896d5000111e3f00f8657de6395e4579c99d41674aef40cff34c599b3741acb826160b304cf90a99da88ade668cd8ce9f36bd09af237c70b5",
+          "sha256": "30d1abf69e6d7ac5f05abc17e4cf6b25635ba6319f1dc122fab9745bbbae8ed5",
+          "sha1": "e021f9b451f7824f8aeb85e4427ffeb6ec6aa113",
+          "md5": "278c2b62b3243386aa08aa1cb115bff3"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jasypt",
+          "module": "jasypt",
+          "version": {
+            "requires": "1.9.3"
+          }
+        },
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "1.7.30"
+          }
+        },
+        {
+          "group": "org.projectlombok",
+          "module": "lombok",
+          "version": {
+            "requires": "1.18.10"
+          }
+        },
+        {
+          "group": "jakarta.persistence",
+          "module": "jakarta.persistence-api",
+          "version": {
+            "requires": "2.2.3"
+          }
+        },
+        {
+          "group": "org.apache.httpcomponents",
+          "module": "httpcore",
+          "version": {
+            "requires": "4.4.13"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-databind",
+          "version": {
+            "requires": "2.10.1"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.datatype",
+          "module": "jackson-datatype-jsr310",
+          "version": {
+            "requires": "2.10.1"
+          }
+        },
+        {
+          "group": "com.opencsv",
+          "module": "opencsv",
+          "version": {
+            "requires": "5.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "public-library-1.2.2.jar",
+          "url": "public-library-1.2.2.jar",
+          "size": 216394,
+          "sha512": "c6f789cf34bf41d896d5000111e3f00f8657de6395e4579c99d41674aef40cff34c599b3741acb826160b304cf90a99da88ade668cd8ce9f36bd09af237c70b5",
+          "sha256": "30d1abf69e6d7ac5f05abc17e4cf6b25635ba6319f1dc122fab9745bbbae8ed5",
+          "sha1": "e021f9b451f7824f8aeb85e4427ffeb6ec6aa113",
+          "md5": "278c2b62b3243386aa08aa1cb115bff3"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "public-library-1.2.2-sources.jar",
+          "url": "public-library-1.2.2-sources.jar",
+          "size": 85645,
+          "sha512": "a0012ce9578c3d5b1347af7f7a62bfa9be400d3c5f8f3037ad209902409b9e0537413bfda16fd06f289e5e907623df6c110db041723f500467733335f3352478",
+          "sha256": "2947fcc740ac113d57577f383234a2c3df6f6f58543884103ad638e2c26d9d72",
+          "sha1": "035a405faa7a496116f399c8a54e6754c0e2904c",
+          "md5": "5cfdb8893c3eff790f90fd7f48ac6d9c"
+        }
+      ]
+    }
+  ]
+}
