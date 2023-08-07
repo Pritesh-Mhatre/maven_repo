@@ -1,0 +1,126 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.dakshata",
+    "module": "at-api",
+    "version": "1.8.4",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.dakshata",
+          "module": "public-library",
+          "version": {
+            "requires": "1.8.4"
+          }
+        },
+        {
+          "group": "com.konghq",
+          "module": "unirest-java",
+          "version": {
+            "requires": "3.13.10"
+          }
+        },
+        {
+          "group": "com.konghq",
+          "module": "unirest-objectmapper-jackson",
+          "version": {
+            "requires": "3.4.01"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "at-api-1.8.4.jar",
+          "url": "at-api-1.8.4.jar",
+          "size": 30804,
+          "sha512": "b9ada61aa685eeb8e709de176d99d978346e5504e0ae062429efa30b4f27d1ef4bd4a8b9e6be99e8e8e7c6f0e1d654fc4013a83794b2130296a3192af30df68c",
+          "sha256": "2ffb02cedd20ee835228518918fe2b29a48ff4e91d1df7203baa99da0575686a",
+          "sha1": "d786225545f3f5a2a5788c7504b47154037f5955",
+          "md5": "ad763c7f2f878d6965ba35c122945bf7"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.dakshata",
+          "module": "public-library",
+          "version": {
+            "requires": "1.8.4"
+          }
+        },
+        {
+          "group": "com.konghq",
+          "module": "unirest-java",
+          "version": {
+            "requires": "3.13.10"
+          }
+        },
+        {
+          "group": "com.konghq",
+          "module": "unirest-objectmapper-jackson",
+          "version": {
+            "requires": "3.4.01"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "at-api-1.8.4.jar",
+          "url": "at-api-1.8.4.jar",
+          "size": 30804,
+          "sha512": "b9ada61aa685eeb8e709de176d99d978346e5504e0ae062429efa30b4f27d1ef4bd4a8b9e6be99e8e8e7c6f0e1d654fc4013a83794b2130296a3192af30df68c",
+          "sha256": "2ffb02cedd20ee835228518918fe2b29a48ff4e91d1df7203baa99da0575686a",
+          "sha1": "d786225545f3f5a2a5788c7504b47154037f5955",
+          "md5": "ad763c7f2f878d6965ba35c122945bf7"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "at-api-1.8.4-sources.jar",
+          "url": "at-api-1.8.4-sources.jar",
+          "size": 11004,
+          "sha512": "15c1b0923d4b454198d78a4586d68d9321a38a018dc7423cd928062899b63a64918ea1213e86632b28796ef4df53eac7e2d819f4f9afb2fc69045caeaed356ab",
+          "sha256": "012874c57790ce7e9982a4c8af26ac4c43bf86e37acd21a666d664018f569d64",
+          "sha1": "147deb03c020844c836c2829ffe506e72caf61e6",
+          "md5": "b61abab7d439002fdc8d0b779105557a"
+        }
+      ]
+    }
+  ]
+}
