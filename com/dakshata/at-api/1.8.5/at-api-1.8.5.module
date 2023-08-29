@@ -1,0 +1,140 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.dakshata",
+    "module": "at-api",
+    "version": "1.8.5",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.dakshata",
+          "module": "public-library",
+          "version": {
+            "requires": "1.8.5"
+          }
+        },
+        {
+          "group": "com.dakshata",
+          "module": "public-library",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "com.konghq",
+          "module": "unirest-java",
+          "version": {
+            "requires": "3.13.10"
+          }
+        },
+        {
+          "group": "com.konghq",
+          "module": "unirest-objectmapper-jackson",
+          "version": {
+            "requires": "3.4.01"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "at-api-1.8.5.jar",
+          "url": "at-api-1.8.5.jar",
+          "size": 30804,
+          "sha512": "7373c99f448cdabbfe9ce406340bd61f5f6090d14e3a039ec6a583752a5ea44b45273289bc4b2544b4b3bb384d3203c17a465847ffaa0fe3f257aaf692a5aaf8",
+          "sha256": "1c8686e8adb038c4cc789504d19bfdb03b114ccd1dbbcb1ec98d148e54baf011",
+          "sha1": "ecbb02eacff502bdabd7b6e91b0d61063899b3cf",
+          "md5": "5586a297935ed6bfa5ee020b59ce1515"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.dakshata",
+          "module": "public-library",
+          "version": {
+            "requires": "1.8.5"
+          }
+        },
+        {
+          "group": "com.dakshata",
+          "module": "public-library",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "com.konghq",
+          "module": "unirest-java",
+          "version": {
+            "requires": "3.13.10"
+          }
+        },
+        {
+          "group": "com.konghq",
+          "module": "unirest-objectmapper-jackson",
+          "version": {
+            "requires": "3.4.01"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "at-api-1.8.5.jar",
+          "url": "at-api-1.8.5.jar",
+          "size": 30804,
+          "sha512": "7373c99f448cdabbfe9ce406340bd61f5f6090d14e3a039ec6a583752a5ea44b45273289bc4b2544b4b3bb384d3203c17a465847ffaa0fe3f257aaf692a5aaf8",
+          "sha256": "1c8686e8adb038c4cc789504d19bfdb03b114ccd1dbbcb1ec98d148e54baf011",
+          "sha1": "ecbb02eacff502bdabd7b6e91b0d61063899b3cf",
+          "md5": "5586a297935ed6bfa5ee020b59ce1515"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "at-api-1.8.5-sources.jar",
+          "url": "at-api-1.8.5-sources.jar",
+          "size": 11004,
+          "sha512": "f6a938bd3f78a9cad092433d9c7e56e267f1345fddbe71c03ba09b0dba52403507039bd26ad3f716bc0a26e51443c70845f50982dc4be6f1f182113d57956cf8",
+          "sha256": "fd790c20c0366e91946728301145b12dd16434aba5d99986d7a015400031ae64",
+          "sha1": "e596fa241d767527a239b8c603554a49264df328",
+          "md5": "9ccb2ab27eb173f1a3d40352682f4c8f"
+        }
+      ]
+    }
+  ]
+}
