@@ -10,7 +10,7 @@
   },
   "createdBy": {
     "gradle": {
-      "version": "7.0.2"
+      "version": "8.5"
     }
   },
   "variants": [
@@ -35,7 +35,7 @@
           "group": "com.konghq",
           "module": "unirest-java",
           "version": {
-            "requires": "3.9.00"
+            "requires": "3.13.10"
           }
         },
         {
@@ -50,11 +50,11 @@
         {
           "name": "at-api-1.0.0.jar",
           "url": "at-api-1.0.0.jar",
-          "size": 22384,
-          "sha512": "da796547e69199f38e3135d097d4ac8f8776b7973f6c4de95494c98373e0e0b7c5e314b51c978ce979e841167300f3509ebaf6fa328f80e7574549c05225c743",
-          "sha256": "9d87a6f2723c1c6ed4fdc81097525b6a309ae6ff05b9618c0e80dc40e4f1731b",
-          "sha1": "ff3b5069c435efed109ccb365bca034b62be0432",
-          "md5": "272215082c9c58c843262c2fa1c78091"
+          "size": 31204,
+          "sha512": "bfcefd6e963bd802f2e23cc83e40b6fc704b225cd0a1e661b87759b77004d7eb76124c7e48afa6f3654e6a13b1c8d563c59ccc8f5dd8e2046dd1c22bbc4176bd",
+          "sha256": "4ec1c331a7df06fba9dc8d4853bf26429c57e920fdf29e85c6c198e94631a2a6",
+          "sha1": "0e6d2eb9db63ed9267642cdb731a407e8bd28ef8",
+          "md5": "9cf9c119711dba8c4239e8c380402bfb"
         }
       ]
     },
@@ -79,7 +79,7 @@
           "group": "com.konghq",
           "module": "unirest-java",
           "version": {
-            "requires": "3.9.00"
+            "requires": "3.13.10"
           }
         },
         {
@@ -94,11 +94,11 @@
         {
           "name": "at-api-1.0.0.jar",
           "url": "at-api-1.0.0.jar",
-          "size": 22384,
-          "sha512": "da796547e69199f38e3135d097d4ac8f8776b7973f6c4de95494c98373e0e0b7c5e314b51c978ce979e841167300f3509ebaf6fa328f80e7574549c05225c743",
-          "sha256": "9d87a6f2723c1c6ed4fdc81097525b6a309ae6ff05b9618c0e80dc40e4f1731b",
-          "sha1": "ff3b5069c435efed109ccb365bca034b62be0432",
-          "md5": "272215082c9c58c843262c2fa1c78091"
+          "size": 31204,
+          "sha512": "bfcefd6e963bd802f2e23cc83e40b6fc704b225cd0a1e661b87759b77004d7eb76124c7e48afa6f3654e6a13b1c8d563c59ccc8f5dd8e2046dd1c22bbc4176bd",
+          "sha256": "4ec1c331a7df06fba9dc8d4853bf26429c57e920fdf29e85c6c198e94631a2a6",
+          "sha1": "0e6d2eb9db63ed9267642cdb731a407e8bd28ef8",
+          "md5": "9cf9c119711dba8c4239e8c380402bfb"
         }
       ]
     },
@@ -114,11 +114,11 @@
         {
           "name": "at-api-1.0.0-sources.jar",
           "url": "at-api-1.0.0-sources.jar",
-          "size": 9462,
-          "sha512": "93155d0ea5e3cc29eed3346a4151a4b6a6921968003ae370be731c06aecfabe0b34eeffbc9d85e3c5a387607ccbb97d78c8dbda690c124146708318bbf618a40",
-          "sha256": "71d7d5ca4d32cf1d47b25d13166f46de979e03a0cda1123b4828a5ae379d86a6",
-          "sha1": "5197f0e4779238af3a884742203fe84538b56d20",
-          "md5": "718bbeb20be64af008494eb88967a217"
+          "size": 11061,
+          "sha512": "9c58508cfa3bab49be976d1597947ced6393e8c62baf04cfa2e8a8ed52c4f0892efe5ee4e4c6d68b2ac4765415f3efd1ef82f2928c38e145c1e603b00fd71da7",
+          "sha256": "9037046fb8abaf77288ef33a21e5c8e538f24b3af3a470e3b75b209ca4a000a0",
+          "sha1": "45a5bae5e60c2791d8ec015ea51358559a05e0ec",
+          "md5": "6b5f844b033c0556a7b439a3f53ffb13"
         }
       ]
     }
